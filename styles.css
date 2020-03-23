@@ -4,6 +4,9 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
+  background-image: url("space2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -23,5 +26,15 @@ body, a:link, a:visited, a:active{
 .dancer{
   border:10px solid red;
   border-radius:10px;
+  position:absolute;
+}
+.dancer2{
+  border:20px solid blue;
+  border-radius:20px;
+  position:absolute;
+}
+.dancer3{
+  border:20px solid green;
+  border-radius:20px;
   position:absolute;
 }
